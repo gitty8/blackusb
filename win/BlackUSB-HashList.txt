@@ -1,0 +1,41 @@
+
+                                          Hash List
+
+
+ Input Type: FILE 
+ FileName: BlackUSB.zip
+
+
+
+ Hash List [Hash Name (Length) - Hash Data]
+ ***********************************************************************************
+
+	 ADLER32         (4) - 8bbeae49
+
+	 CRC32           (4) - 473ce380
+
+	 RIPEMD160       (20) - 094d971abd9cc13865d6a92b10f7137076f72c2a
+
+	 MD2             (16) - d46643320609e6cbe640b8965bbac58b
+
+	 MD4             (16) - 2833159932eaa51363403f365ae89d3e
+
+	 MD5             (16) - e2440eae5e877cb099623e9542a6f523
+
+	 SHA1            (20) - 5dda0a9054c983fcfeef0b5588985d8f486d021c
+
+	 SHA256          (32) - 9855f2ee37cea6f2068bc65224ef9e10c1f43cc768cd1813ed7a70681116ab36
+
+	 SHA384          (48) - 0b5bace1c491e67629bcb964ca589a1bacbc94ac7f47339e7a6b3fe2e17a0e7e83f284db2ab424ea3abc9744d321257d
+
+	 SHA512          (64) - 88c646e43388ecc55fdce49dfa19e6eb7aaa39b9760943dddc85065111d9e0a159cd5b2964e30056da24c53eecc36d45cbc5c8e40f0e7dbc7cfb5b1452935abd
+
+	 HAVAL256-4      (32) - cd1c47ebea6ef0212eeb941a0dff87c3bf854513407a863e3308deae082d4bd4
+
+	 WHIRLPOOL       (64) - 285d6ae6c0909208984bf4ddbdb0136db260d2dd6dcdd7f1f485dea8371bb50f2141204f64e0f7d15c1a69078feba8c06161e230a497df20745fa74e25f7b076
+
+
+____________________________________________________________________________________
+
+
+

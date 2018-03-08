@@ -7,14 +7,15 @@
 [BlackUSB](http://www.maravento.com/p/blackusb.html) es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / [BlackUSB](http://www.maravento.com/p/blackusb.html) is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
 
 ### BlackUSB para Linux / BlackUSB for Linux
+---
 
 Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules
 
-##### PATH
+##### Ruta / Path
 
 `/etc/init.d`
 
-##### MODO DE USO / HOW TO USE
+##### Modo de Uso / How to Use
 
 Example:
 
@@ -30,7 +31,7 @@ sudo /etc/init.d/blackusb s
  5 Name=xHCI Host Controller, Vendor=1d6b, Product=0002, Serial=0022:00:14.0
 ```
 
-##### DESCRIPCION / DESCRIPTION
+##### Ficha Técnica / Data Sheet
 
 |Full|Short|Description|
 |----|-----|-----------|
@@ -42,13 +43,13 @@ sudo /etc/init.d/blackusb s
 |del|d|Elimina archivo udev que contiene lista blanca de dispositivos usb / Delete udev rules file contain white list usb devices|
 |edit|e|Edita manualmente las reglas udev / Edit udev rules file manually|
 
-##### MODO PARANOICO / PARANOIC MODE
+##### Modo Paranoico / Paranoic Mode
 
 Consiste en apagar su terminal cuando se inserte un dispositivo usb no autorizado y/o desconocido, en lugar de bloquearlo. Para activarlo, edite manualmente el script y descomente la línea / It consists of turning off your terminal when inserting an unauthorized and / or unknown usb device, rather than locking it. To activate it, edit the script manually and uncomment the line
 
 `'poweroff'`
 
-##### LOGS
+##### Logs
 
 `/var/log/blackusb.log`
 
@@ -60,11 +61,11 @@ Unknown Device Blocked: SUBSYSTEM=="usb", ATTR{idVendor}=="0781", ATTR{idProduct
 Cruzer Blade
 ```
 
-##### DEPENDENCIAS / DEPENDENCIES
+##### Dependencias / Dependencies
 
 `bash`, `udev`
 
-##### BIFURCACION / FORK
+##### Bifurcación / Fork
 
 Este proyecto está basado en: / This project is based on:
 
@@ -77,36 +78,37 @@ Este proyecto está basado en: / This project is based on:
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
 ### BlackUSB para Windows / BlackUSB for Windows
+---
 
 Es una herramienta que cuenta dos versiones. Standard (S) y Deep (D). La version "Standard", limpia las conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos dispositivos USB/HID (no autorizados), por tanto es un proceso rápido. La version "Deep", realiza una limpieza más profunda de instalaciones previas USB/HID y reinstala nuevamente los drivers de dispositivos USB/HID conectados, por tanto es más lenta que la "Standard" / It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard" version, clean the previous connections of USB/HID devices, re-scan the connected ones and block the new USB/HID devices (not authorized), therefore it is a fast process. The "Deep" version performs a more thorough cleaning of previous USB/HID installations and reinstalls the drivers of connected USB/HID devices, so it is slower than the "Standard"
 
-##### DESCARGA (S) / DOWNLOAD (S)
+##### Descarga / Download
 
 [![Image](https://4.bp.blogspot.com/-KJ-o4ljjKmc/VksokZnZtnI/AAAAAAAACJo/Rch9cpUd-Qo/s1600/button1.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSB.zip)
 
-##### FICHA TECNICA / DATA SHEET
+##### Ficha Técnica / Data Sheet
 
 |File|Version|OS|Update|Size|
 |----|-------|--|------|----|
 |BlackUSB.exe (.zip)|1.0|Windows 7/8/10 x86 x64|Ago 10/2017|2,45 MB|
 
-##### DESCARGA (D) / DOWNLOAD (D)
+##### Descarga / Download (Deep Version)
 
 [![Image](https://4.bp.blogspot.com/-KJ-o4ljjKmc/VksokZnZtnI/AAAAAAAACJo/Rch9cpUd-Qo/s1600/button1.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSBD.zip)
 
-##### FICHA TECNICA / DATA SHEET
+##### Ficha Técnica / Data Sheet (Deep Version)
 
 |File|Version|OS|Update|Size|
 |----|-------|--|------|----|
 |BlackUSBD.exe (.zip)|1.0|Windows 7/8/10 x86 x64|Jul 12/2017|4,75 MB|
 
-##### MODO DE USO / HOW TO USE
+##### Modo de Uso / How to Use
 
-- Desactive su Antivirus, Antimalware o solución de seguridad y cierre todas las ventanas / Disable your Antivirus, Antimalware or security solution and close all windows
+- Desactive su Antivirus, Antimalware, SmartScreen o cualquier otra solución de seguridad en su Sistema Operativo y cierre todas las ventanas / Disable your Antivirus, Antimalware, SmartScreen or any other security solution in your Operating System and close all windows
 - Descargue BlackUSB.exe (.zip) o BlackUSBD.exe (.zip), descomprimirlo en el escritorio / Download BlackUSB.exe (.zip) or BlackUSBD.exe (.zip), unzip it on your desktop
 - Ejecútelo con doble clic, acepte la ejecución con privilegios y siga las instrucciones en pantalla / Run Setup by double-clicking accept execution with privileges and follow the onscreen instructions
 
-##### IMPORTANTE ANTES DE USAR / IMPORTANT BEFORE USE
+##### Importante Antes de Usar / Important Before Use
 
 - No pulse el botón **BLOCK**, dos veces seguidas, o bloqueará todos los dispositivos USB/HID / Do not press **BLOCK** button twice in a row or it will block all USB/HID devices.
 - Si tiene establecidas [políticas GPO](https://es.wikipedia.org/wiki/Directiva_de_Grupo) en su sistema, serán reescritas. Haga backup GPO antes de usar BlackUSB / If you have defined [GPO policies](https://en.wikipedia.org/wiki/Group_Policy) on your system, they will be rewritten. Make a GPO backup before using BlackUSB
@@ -114,11 +116,18 @@ Es una herramienta que cuenta dos versiones. Standard (S) y Deep (D). La version
 - Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte **whiteusb.txt**, que contiene la lista blanca de dispositivos USB/HID excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE / After executing the BLOCK option, the **whiteusb.txt** report file, which contains the white list of USB/HID devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option
 - BlackUSB para Windows está incluido en [Dextroyer](http://www.dextroyer.com) / BlackUSB for Windows is included in [Dextroyer](http://www.dextroyer.com)
 
-### CONTRIBUCIONES / CONTRIBUTIONS
+### Contributions
+---
 
 Agradecemos a todos los que han contribuido con este proyecto / We thank all those who contributed to this project. Special thanks Novatoz.
 
-### LICENCIA / LICENCE
+### Donate
+---
+
+BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
+
+### Licence
+---
 
 #####  Public
 
@@ -133,7 +142,8 @@ Agradecemos a todos los que han contribuido con este proyecto / We thank all tho
 
 © 2018 [Maravento Studio](http://www.maravento.com)
 
-#### EXENCION DE RESPONSABILIDAD / DISCLAIMER
+#### Disclaimer
+---
 
 Estos scripts puede dañar su sistema si se usan incorrectamente. Úselos bajo su propio riesgo / This scripts can damage your system if used incorrectly. Use it at your own risk.
 

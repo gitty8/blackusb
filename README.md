@@ -1,7 +1,7 @@
 ## BlackUSB
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
-[![Version](https://img.shields.io/badge/Development-ALPHA-blue.svg)](https://img.shields.io/badge/Development-ALPHA-blue.svg)
+[![Version](https://img.shields.io/badge/Version-1.0-yellowgreen.svg)](https://img.shields.io/badge/Version-1.0-yellowgreen.svg)
 
 
 [BlackUSB](http://www.maravento.com/p/blackusb.html) es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / [BlackUSB](http://www.maravento.com/p/blackusb.html) is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
@@ -9,7 +9,9 @@
 ### BlackUSB para Linux / BlackUSB for Linux
 ---
 
-Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules
+Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
+
+It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules
 
 ##### Ruta / Path
 
@@ -35,17 +37,19 @@ sudo /etc/init.d/blackusb s
 
 |Full|Short|Description|
 |----|-----|-----------|
-|show|s|Muestra los dispositivos conectados / show currently connected usb devices|
+|show|s|Muestra los dispositivos conectados / Show currently connected usb devices|
 |on|o|Activar blackusb y genera lista blanca de dispositivos USB conectados / Turn on blackusb and generate white list of connected USB devices|
 |eject|j|Elija un dispositivo de la lista para expulsarlo o agregar entrada/Choose a device from the list to eject or add entry|
-|off|x|Desactiva temporalmente blackusb / temporarily deactivate blackusb|
+|off|x|Desactiva temporalmente blackusb / Temporarily deactivate blackusb|
 |gen|g|Genera o refresca lista blanca de dispositivos lista udev usb / Generate or refresh whitelist udev rules file|
 |del|d|Elimina archivo udev que contiene lista blanca de dispositivos usb / Delete udev rules file contain white list usb devices|
 |edit|e|Edita manualmente las reglas udev / Edit udev rules file manually|
 
 ##### Modo Paranoico / Paranoic Mode
 
-Consiste en apagar su terminal cuando se inserte un dispositivo usb no autorizado y/o desconocido, en lugar de bloquearlo. Para activarlo, edite manualmente el script y descomente la línea / It consists of turning off your terminal when inserting an unauthorized and / or unknown usb device, rather than locking it. To activate it, edit the script manually and uncomment the line
+Consiste en apagar su terminal cuando se inserte un dispositivo usb no autorizado y/o desconocido, en lugar de bloquearlo. Para activarlo, edite manualmente el script y descomente la línea
+
+It consists of turning off your terminal when inserting an unauthorized and/or unknown usb device, rather than locking it. To activate it, edit the script manually and uncomment the line
 
 `'poweroff'`
 
@@ -80,7 +84,9 @@ Este proyecto está basado en: / This project is based on:
 ### BlackUSB para Windows / BlackUSB for Windows
 ---
 
-Es una herramienta que cuenta dos versiones. Standard (S) y Deep (D). La version "Standard", limpia las conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos dispositivos USB/HID (no autorizados), por tanto es un proceso rápido. La version "Deep", realiza una limpieza más profunda de instalaciones previas USB/HID y reinstala nuevamente los drivers de dispositivos USB/HID conectados, por tanto es más lenta que la "Standard" / It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard" version, clean the previous connections of USB/HID devices, re-scan the connected ones and block the new USB/HID devices (not authorized), therefore it is a fast process. The "Deep" version performs a more thorough cleaning of previous USB/HID installations and reinstalls the drivers of connected USB/HID devices, so it is slower than the "Standard"
+Es una herramienta que cuenta dos versiones. Standard (S) y Deep (D). La version "Standard", limpia las conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos dispositivos USB/HID (no autorizados), por tanto es un proceso rápido. La version "Deep", realiza una limpieza más profunda de instalaciones previas USB/HID y reinstala nuevamente los drivers de dispositivos USB/HID conectados, por tanto es más lenta que la "Standard"
+
+It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard" version, clean the previous connections of USB/HID devices, re-scan the connected ones and block the new USB/HID devices (not authorized), therefore it is a fast process. The "Deep" version performs a more thorough cleaning of previous USB/HID installations and reinstalls the drivers of connected USB/HID devices, so it is slower than the "Standard"
 
 ##### Descarga / Download
 

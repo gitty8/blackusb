@@ -11,7 +11,12 @@
 # Description:       Enable service provided by daemon
 ### END INIT INFO
 
-# by:	maravento.com and novatoz.com
+# Fork:
+# [usbkill](https://github.com/hephaest0s/usbkill)
+# [usbdeath](https://github.com/trpt/usbdeath)
+# Modified by:
+# maravento.com and novatoz.com
+
 # How to Use: 
 # block usb except whitelist (00-blackusb.rules)
 # Safe (demo) mode, remove to run real commands

@@ -13,9 +13,9 @@ Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea 
 
 It is a bash script that generates a white list of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules
 
-##### Ruta / Path
-
-`/etc/init.d`
+```
+sudo wget -q -N https://github.com/maravento/blackusb/raw/master/blackusb -O /etc/init.d/blackusb
+```
 
 ##### Modo de Uso / How to Use
 

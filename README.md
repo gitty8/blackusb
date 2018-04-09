@@ -6,7 +6,7 @@
 
 [BlackUSB](http://www.maravento.com/p/blackusb.html) es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / [BlackUSB](http://www.maravento.com/p/blackusb.html) is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
 
-### BlackUSB para Linux / BlackUSB for Linux
+### BLACKUSB LINUX
 ---
 
 Es un bash script que genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
@@ -81,7 +81,7 @@ Este proyecto está basado en: / This project is based on:
 
 [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-### BlackUSB para Windows / BlackUSB for Windows
+### BLACKUSB WINDOWS
 ---
 
 Es una herramienta que cuenta dos versiones. Standard (S) y Deep (D). La version "Standard", limpia las conexiones previas de dispositivos USB/HID, re-escanea los conectados y bloquea los nuevos dispositivos USB/HID (no autorizados), por tanto es un proceso rápido. La version "Deep", realiza una limpieza más profunda de instalaciones previas USB/HID y reinstala nuevamente los drivers de dispositivos USB/HID conectados, por tanto es más lenta que la "Standard"
@@ -90,7 +90,7 @@ It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard"
 
 ##### Descarga / Download
 
-[![Image](https://4.bp.blogspot.com/-KJ-o4ljjKmc/VksokZnZtnI/AAAAAAAACJo/Rch9cpUd-Qo/s1600/button1.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSB.zip)
+[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSB.zip)
 
 ##### Ficha Técnica / Data Sheet
 
@@ -100,7 +100,7 @@ It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard"
 
 ##### Descarga / Download (Deep Version)
 
-[![Image](https://4.bp.blogspot.com/-KJ-o4ljjKmc/VksokZnZtnI/AAAAAAAACJo/Rch9cpUd-Qo/s1600/button1.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSBD.zip)
+[![Image](https://1.bp.blogspot.com/-Y_vVfquMvAE/WsOHgH6kY1I/AAAAAAAAD6Q/PPbPjbEBHH4YJDrcU6tE0ENbhHMroAmRQCLcBGAs/s1600/quick-download.png)](https://github.com/maravento/blackusb/raw/master/win/BlackUSBD.zip)
 
 ##### Ficha Técnica / Data Sheet (Deep Version)
 
@@ -122,17 +122,17 @@ It is a tool that counts two versions. Standard (S) and Deep (D). The "Standard"
 - Despues de ejecutar la opción BLOCK, aparecerá en su escritorio el archivo de reporte **whiteusb.txt**, que contiene la lista blanca de dispositivos USB/HID excluidos del bloqueo. Esta lista será eliminada al utilizar la opción RESTORE / After executing the BLOCK option, the **whiteusb.txt** report file, which contains the white list of USB/HID devices excluded from the lock, will be displayed on your desktop. This list will be deleted when using the RESTORE option
 - BlackUSB para Windows está incluido en [Dextroyer](http://www.dextroyer.com) / BlackUSB for Windows is included in [Dextroyer](http://www.dextroyer.com)
 
-### Contributions
+### CONTRIBUCIONES / CONTRIBUTIONS
 ---
 
 Agradecemos a todos los que han contribuido con este proyecto / We thank all those who contributed to this project. Special thanks Novatoz.
 
-### Donate
+### DONACION / DONATE
 ---
 
 BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
-### Licence
+### LICENCIA / LICENCE
 ---
 
 #####  Public
@@ -148,7 +148,7 @@ BTC: 3M84UKpz8AwwPADiYGQjT9spPKCvbqm4Bc
 
 © 2018 [Maravento Studio](http://www.maravento.com)
 
-#### Disclaimer
+### EXENCION DE RESPONSABILIDAD / DISCLAIMER
 ---
 
 Estos scripts puede dañar su sistema si se usan incorrectamente. Úselos bajo su propio riesgo / This scripts can damage your system if used incorrectly. Use it at your own risk.

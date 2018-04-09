@@ -1,10 +1,11 @@
-## BlackUSB
+## [BlackUSB](http://www.maravento.com/p/blackusb.html)
 
 [![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl.txt)
-[![Version](https://img.shields.io/badge/Version-1.0-yellowgreen.svg)](https://img.shields.io/badge/Version-1.0-yellowgreen.svg)
+[![GitHub version](https://img.shields.io/badge/Version-1.0-yellowgreen.svg)](http://www.maravento.com/p/blackusb.html)
 
+**BlackUSB** es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev
 
-[BlackUSB](http://www.maravento.com/p/blackusb.html) es un script experimental, que previene el robo de datos personales, malware, herramientas forenses, BadUSB (USB Rubber Ducky), etc. Genera una lista blanca de dispositivos usb/hid y bloquea cualquier otra inserción no autorizada de dispositivos desconocidos, usando reglas udev / [BlackUSB](http://www.maravento.com/p/blackusb.html) is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
+**BlackUSB** is a experimental script, that prevents theft of personal data, malware, forensic tools, BadUSB (USB Rubber Ducky), etc. Generates a whitelist of usb/hid devices and blocks any other unauthorized insertion of unknown devices, using udev rules.
 
 ### BLACKUSB LINUX
 ---
